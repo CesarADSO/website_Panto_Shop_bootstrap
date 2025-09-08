@@ -30,6 +30,17 @@ p,a,button,li,label,input,select,textarea,span{
 
 /* 5. DESKTOP */
 
+header{
+    width: 100%;
+    position: relative;
+    height: 100vh;
+    background: url('../img/Rectangle\ 1441.png');
+    background-size: cover;
+    /* background-position: center; */
+    background-position-x: center;
+    background-position-y: bottom;
+}
+
 /* 6. ESTILOS RESPONSIVE TABLET */
 @media screen and (min-width:768px) and (max-width: 1080px){
 
