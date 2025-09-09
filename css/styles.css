@@ -37,8 +37,8 @@ span {
     --white-color: #fff;
     --dark-color: #1e1e1e;
     --fs-title1: 80px;
-    --fs-title2: 42px;
-    --fs-title3: 24px;
+    --fs-title2: 38px;
+    --fs-title3: 22px;
     --fs-title4: 18px;
     --fs-text: 16px;
 }
@@ -157,6 +157,48 @@ header .bag-button .counter-products {
     top: 16%;
     right: 9%;
 }
+
+/* ESTILOS MAIN */
+#choosing-us {
+    width: 100%;
+    position: relative;
+    background: var(--white-color) ;
+    padding: 120px 0;
+}
+
+#choosing-us h2 {
+    font-weight: 700;
+    font-size: var(--fs-title2);
+    color: var(--dark-color);
+    padding-top: 20px;
+}
+
+#choosing-us h3{
+    font-size: var(--fs-title3);
+    font-weight: 700;
+    color: var(--dark-color);
+}
+
+#choosing-us p {
+    font-size: var(--fs-text);
+    color: var(--dark-color);
+    margin-top: 20px;
+}
+
+#choosing-us a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+#choosing-us a i {
+    margin-left: 4px;
+    transition: .5s;
+}
+
+#choosing-us a:hover i {
+    margin-left: 15px;
+}
+
 /* 6. ESTILOS RESPONSIVE TABLET */
 @media screen and (min-width:768px) and (max-width: 1080px) {}
 
