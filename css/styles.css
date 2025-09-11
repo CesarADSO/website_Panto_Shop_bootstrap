@@ -275,7 +275,7 @@ header .bag-button .counter-products {
     border-radius: 0 0 20px 20px;
 }
 
-#products .cont-info p.category{
+#products .cont-info p.category {
     font-size: var(--fs-text);
     color: #8d8d8d;
 }
@@ -291,7 +291,7 @@ header .bag-button .counter-products {
 }
 
 
-#products .stars i{
+#products .stars i {
     color: #f6b76f;
 }
 
@@ -334,7 +334,7 @@ header .bag-button .counter-products {
 #experiences {
     width: 100%;
     position: relative;
-    padding: 140px 0 ;
+    padding: 140px 0;
 }
 
 #experiences .cont-img {
@@ -408,6 +408,90 @@ header .bag-button .counter-products {
 #experiences a:hover i {
     margin-left: 15px;
 }
+
+#materials {
+    width: 100%;
+    position: relative;
+    padding: 140px 0;
+    overflow: hidden;
+}
+
+#materials .cont-info {
+    padding: 120px 60px 0 50px;
+}
+
+#materials .cont-info h3 {
+    color: var(--primary-color);
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-size: var(--fs-title4);
+    margin-bottom: 20px;
+}
+
+#materials .cont-info h2 {
+    padding-right: 80px;
+    font-weight: 700;
+    font-size: var(--fs-title2);
+    color: var(--dark-color);
+    margin-bottom: 20px;
+}
+
+#materials .cont-info p {
+    font-size: var(--fs-text);
+    color: var(--dark-color);
+    margin-bottom: 24px;
+}
+
+#materials .cont-info a {
+    color: var(--primary-color);
+    position: relative;
+    text-decoration: none;
+}
+
+#materials a i {
+    margin-left: 8px;
+    transition: .5s;
+    position: absolute;
+    top: -1px;
+}
+
+#materials a:hover i {
+    margin-left: 15px;
+}
+
+#materials .cont-2-img {
+    margin-left: 42px;
+}
+
+#materials .cont-2-img .img1 {
+    margin-bottom: 26px;
+    box-shadow: -3px 12px 15px -10px #d7e5e7;
+}
+
+#materials .cont-2-img .img2 {
+    box-shadow: -3px 12px 15px -10px #c8bab8;
+}
+
+#materials .cont-3-img::before {
+    content: "";
+    width: 495px;
+    height: 301px;
+    background: #f7f7f7;
+    position: absolute;
+    z-index: -1;
+    top: 200px;
+    border-radius: 20px;
+    right: -200px;
+}
+
+#materials .img3 {
+    position: absolute;
+    bottom: 150px;
+    right: 0px;
+    box-shadow: -3px 16px 15px -10px #cb8139;
+}
+
+
 
 /* 6. ESTILOS RESPONSIVE TABLET */
 @media screen and (min-width:768px) and (max-width: 1080px) {}
