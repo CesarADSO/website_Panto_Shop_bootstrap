@@ -586,6 +586,65 @@ header .bag-button .counter-products {
     position: absolute;
     right: 27px;
 }
+
+footer {
+    width: 100%;
+    background: var(--gray-color);
+    position: relative;
+}
+
+footer .row-edit {
+    padding: 100px;
+}
+
+footer .row-edit .panto {
+    color: var(--dark-color);
+    font-weight: 700;
+    margin-bottom: 29px;
+    font-size: var(--fs-title2);
+    letter-spacing: 1%;
+}
+
+
+footer .row-edit p{
+    color: var(--dark-color);
+    padding-right: 200px;
+    font-size: var(--fs-text);
+}
+
+footer .row-edit h3 {
+    color: var(--primary-color);
+    font-size: var(--fs-title4);
+    margin-bottom: 20px;
+}
+
+footer .row-edit a {
+     display: block;
+     text-decoration: none;
+     margin-bottom: 20px;
+     color: var(--dark-color);
+}
+
+footer  a i {
+    letter-spacing: 8px;
+}
+
+footer .row-edit-2 {
+    padding: 100px;
+}
+
+footer .row-edit-2 .copyright {
+    color: #1e2833;
+    text-decoration: none;
+    font-size: var(--fs-title4);
+}
+
+footer .row-edit-2 a {
+    font-size: var(--fs-title4);
+    color: var(--dark-color);
+    text-decoration: none;
+    margin-right: 1px;
+}
 /* 6. ESTILOS RESPONSIVE TABLET */
 @media screen and (min-width:768px) and (max-width: 1080px) {}
 
