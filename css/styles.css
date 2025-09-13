@@ -660,6 +660,16 @@ footer .row-edit-2 a {
         height: 135vh;
     }
 
+    header .bag-button {
+        display: none;
+    }
+
+    .navbar-toggler {
+        background-color: #ffffff;
+    }
+
+    
+
     #choosing-us h3 {
         margin-top: 30px;
     }
@@ -691,7 +701,7 @@ footer .row-edit-2 a {
     }
 
     #materials .cont-info {
-        padding: 120px 0 0 50px;
+        padding: 120px 20px 0 50px;
     }
 
     #materials .cont-info h2 {
@@ -700,12 +710,13 @@ footer .row-edit-2 a {
 
     #materials .cont-2-img .img1 {
         position: absolute;
-        top: -1px;
+        top: 77px;
         right: 270px;
+        width: 150px;
     }
 
     #materials .cont-2-img .img2 {
-        width: 170px;
+        width: 150px;
         position: absolute;
         bottom: 0;
         left: 410px;
@@ -760,5 +771,172 @@ footer .row-edit-2 a {
 
 /* 7. ESTILOS RESPONSIVE SMARTPHONE */
 @media screen and (min-width:320px) and (max-width: 767px) {
-    
+    #hero {
+        padding: 20px;
+    }
+
+    #hero p {
+        padding: 70px;
+    }
+
+    #hero h2 {
+        font-size: 40px;
+    }
+
+    header {
+        height: 135vh;
+    }
+
+    header .bag-button {
+        display: none;
+    }
+
+    .navbar-toggler {
+        background-color: #ffffff;
+    }
+
+    .navbar>.container, .navbar>.container-fluid, .navbar>.container-lg, .navbar>.container-md, .navbar>.container-sm, .navbar>.container-xl, .navbar>.container-xxl{
+        padding-left: 30px;
+        padding-right: 30px;
+        margin-bottom: 20px;
+    }
+
+    #choosing-us {
+        padding: 120px 20px;
+    }
+
+    #choosing-us h3 {
+        margin-top: 30px;
+    }
+
+    #products ul {
+        width: 409px;
+    }
+
+
+    #experiences{
+        padding: 300px 0;
+    }
+
+    #experiences .cont-img img {
+        width: 100%;
+        position: absolute;
+        top: 200px;
+        padding-left: 20px;
+    }
+
+    #experiences .cont-info {
+        padding-right: 10px;
+        position: absolute;
+        right: 0;
+        top: 118px;
+        padding-left: 20px;
+    }
+
+    #experiences .cont-img::before {
+        display: none;
+    }
+
+    #experiences .cont-img::after {
+        display: none;
+    }
+
+    #materials {
+        padding: 200px 0;
+    }
+
+    #materials .img3 {
+        width: 250px;
+        bottom: 272px;
+    }
+
+    #materials .cont-info {
+        padding: 120px 0 0 10px;
+    }
+
+    #materials .cont-info h2 {
+        padding-right: 0;
+    }
+
+    #materials .cont-2-img .img1 {
+        position: absolute;
+        top: 700px;
+        width: 120px;
+        right: 287px;
+    }
+
+    #materials .cont-2-img .img2 {
+        position: absolute;
+        width: 100px;
+        left: 321px;
+        bottom: 3px;
+    }
+
+    #materials .cont-3-img::before {
+        display: none;
+    }
+
+    #materials .img3{
+        width: 120px;
+        position: absolute;
+        top: 700px;
+        right: 139px;
+    }
+
+    #reviews .card-review .cont-info {
+        left: 6%;
+    }
+
+    #reviews .slick-next {
+        position: absolute;
+        right: -1px;
+    }
+
+    footer .row-edit {
+        padding: 70px;
+    }
+
+    footer .row-edit .panto{
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .row-edit p {
+        padding-right: 0;
+    }
+
+    footer .row-edit h3 {
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    footer .row-edit a {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .row-edit p {
+        text-align: center;
+    }
+
+    footer .row-edit-2 {
+        padding: 20px 70px 70px 70px;
+    }
+
+    footer .row-edit-2 .copyright{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+    footer .row-edit-2 a {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 10px;
+    }
+
+
+    .slick-next{
+        right: 0px;
+    }
 }
