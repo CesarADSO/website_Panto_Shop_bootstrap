@@ -686,7 +686,7 @@ footer .row-edit-2 a {
     }
 
     #materials .img3 {
-        width: 300px;
+        width: 250px;
         bottom: 272px;
     }
 
@@ -697,7 +697,68 @@ footer .row-edit-2 a {
     #materials .cont-info h2 {
         padding-right: 0;
     }
+
+    #materials .cont-2-img .img1 {
+        position: absolute;
+        top: -1px;
+        right: 270px;
+    }
+
+    #materials .cont-2-img .img2 {
+        width: 170px;
+        position: absolute;
+        bottom: 0;
+        left: 410px;
+    }
+
+    #materials .cont-3-img::before {
+        width: 400px;
+        height: 200px;
+    }
+
+    #reviews .card-review .cont-info {
+        left: 14%;
+    }
+
+    #reviews .slick-next {
+        position: absolute;
+        right: -25px;
+    }
+
+    footer .row-edit {
+        padding: 70px;
+    }
+
+    footer .row-edit p {
+        padding-right: 0;
+    }
+
+    footer .row-edit h3 {
+        text-align: center;
+    }
+
+    footer .row-edit a {
+        text-align: center;
+    }
+
+    footer .row-edit p {
+        text-align: center;
+    }
+
+    footer .row-edit-2 {
+        padding: 70px;
+    }
+
+    footer .row-edit {
+        padding: 50px 70px 70px 20px;
+    }
+
+    footer .row-edit a {
+        display: flex;
+    }
 }
 
 /* 7. ESTILOS RESPONSIVE SMARTPHONE */
-@media screen and (min-width:320px) and (max-width: 767px) {}
+@media screen and (min-width:320px) and (max-width: 767px) {
+    
+}
