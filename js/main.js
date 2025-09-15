@@ -1,6 +1,3 @@
-AOS.init();
-
-
 
 $(document).ready(function () {
     $('.slider-products').slick({
@@ -51,3 +48,6 @@ $(document).ready(function () {
         ]
     });
 });
+
+
+AOS.init();
