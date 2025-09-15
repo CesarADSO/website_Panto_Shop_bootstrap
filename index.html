@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Panto - Shop</title>
+    <!-- aos animate css -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- Slick Css -->
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css"
@@ -18,7 +20,7 @@
 
 <body>
 
-    <header>
+    <header data-aos="fade-down">
         <nav class="navbar navbar-expand-lg bg-transparente">
             <div class="container">
 
@@ -80,7 +82,7 @@
         </div>
     </header>
     <main>
-        <section id="choosing-us">
+        <section id="choosing-us" data-aos="fade-right">
             <div class="container">
                 <div class="row">
                     <div class=" col-lg-3 col-md-6">
@@ -108,7 +110,7 @@
             </div>
         </section>
 
-        <section id="products">
+        <section id="products" data-aos="fade-up">
             <div class="container">
                 <h2>Best Selling Product</h2>
 
@@ -800,7 +802,7 @@
         </section>
 
 
-        <section id="experiences">
+        <section id="experiences" >
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 cont-img">
@@ -988,6 +990,9 @@
             </div>
         </div>
     </footer>
+
+    <!-- aos animate js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- Slick and jquery js -->
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>

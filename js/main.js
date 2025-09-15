@@ -1,3 +1,7 @@
+AOS.init();
+
+
+
 $(document).ready(function () {
     $('.slider-products').slick({
         slidesToShow: 4,  // Muestra 4 productos por vez
